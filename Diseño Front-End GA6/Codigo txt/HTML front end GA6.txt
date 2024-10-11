@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencils in Action</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pencils in Action</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a Pencils in Action</h2>
+            <p>Aquí encontrarás proyectos tales como pinturas, esculturas y mucho mas.</p>
+            <a href="#proyectos" class="boton-explorar">Explorar Proyectos</a>
+        </section>
+        
+
+        <section id="proyectos">
+            <h2>Nuestros Proyectos</h2>
+            <h3>Cuadros</h3>
+            <ul class="galeria">
+                <li>
+                    <img src="cuadro1.jpg" alt="Cuadro 1">
+                    <br>
+                    <p>Cuadro rosa estilo mandala colores frios</p>
+                </li>
+                <li>
+                    <img src="cuadro2.jpg" alt="Cuadro 2">
+                    <br>
+                    <p> Cuadro inspirado en el artista Vincent van Gogh</p>
+                </li>
+                <li>
+                    <img src="cuadro3.jpg" alt="Cuadro 3">
+                    <br>
+                    <p>Cuadro de madera en relieve</p>
+                </li>
+            </ul>
+        <br>
+            <h3>Esculturas</h3>
+            <ul class="galeria">
+                <li>
+                    <img src="escultura1.jpg" alt="Escultura 1">
+                    <br>
+                    <p>Escultura de zorro en arcilla</p>
+                </li>
+                <li>
+                    <img src="escultura2.jpg" alt="Escultura 2">
+                    <br>
+                    <p>Escultura de tortuga en plastilina</p>
+                </li>
+                <li>
+                    <img src="escultura3.jpg" alt="Escultura 3">
+                    <br>
+                    <p>Escultura de caballo en madera de roble</p>
+                </li>
+            </ul>
+            <br>
+            <h3>Ilustraciones</h3>
+            <ul class="galeria">
+                <li>
+                    <img src="ilustracion1.jpg" alt="Ilustracion 1">
+                    <br>
+                    <p>Estilo abstracto </p>
+                </li>
+                <li>
+                    <img src="ilustracion2.jpeg" alt="Ilustracion 2">
+                    <br>
+                    <p>Estilo retro comic</p>
+                </li>
+                <li>
+                    <img src="ilustracion3.jpg" alt="Ilustracion 3">
+                    <br>
+                    <p>Estilo gotico</p>
+                </li>
+            </ul>
+        </section>
+        
+
+        
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Acerca de</h4>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Soporte</h4>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <ul class="social-links">
+                    <li><a href="#"><img src="Facebook logo.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="Instagram logo.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="Youtube logo.png" alt="YouTube"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024. Pencils in Action Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
