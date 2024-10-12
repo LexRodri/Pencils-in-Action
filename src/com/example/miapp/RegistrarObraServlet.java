@@ -26,7 +26,7 @@ public class RegistrarObraServlet extends HttpServlet {
         System.out.println("Descripción: " + descripcion);
         System.out.println("Precio: " + precio);
 
-        // Reenviar a una página de confirmación (por ejemplo, success.jsp)
+        // Redirigir a una página de confirmación (por ejemplo, success.jsp)
         request.getRequestDispatcher("WEB-INF/jsp/success.jsp").forward(request, response);
     }
 
@@ -37,3 +37,4 @@ public class RegistrarObraServlet extends HttpServlet {
         response.getWriter().println("El método GET no está soportado, por favor usa POST.");
     }
 }
+
