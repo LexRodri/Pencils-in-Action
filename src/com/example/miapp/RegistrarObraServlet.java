@@ -26,8 +26,8 @@ public class RegistrarObraServlet extends HttpServlet {
         System.out.println("Descripción: " + descripcion);
         System.out.println("Precio: " + precio);
 
-        // Redirigir a una página de confirmación (por ejemplo, success.jsp)
-        response.sendRedirect("jsp/success.jsp");
+        // Reenviar a una página de confirmación (por ejemplo, success.jsp)
+        request.getRequestDispatcher("WEB-INF/jsp/success.jsp").forward(request, response);
     }
 
     @Override
