@@ -19,12 +19,21 @@ public class RegistrarObraServlet extends HttpServlet {
         String descripcion = request.getParameter("descripcion");
         String precio = request.getParameter("precio");
 
-    
+        // Aquí puedes añadir lógica para procesar la información, como guardarla en una base de datos
+
+        // Mostrar los datos en la consola para verificar
         System.out.println("Título: " + titulo);
         System.out.println("Descripción: " + descripcion);
         System.out.println("Precio: " + precio);
 
         // Redirigir a una página de confirmación (por ejemplo, success.jsp)
         response.sendRedirect("jsp/success.jsp");
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Respuesta para las solicitudes GET
+        response.getWriter().println("El método GET no está soportado, por favor usa POST.");
     }
 }
