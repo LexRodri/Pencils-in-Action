@@ -4,13 +4,13 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     
-    <servlet>
-        <servlet-name>RegistrarObraServlet</servlet-name>
-        <servlet-class>com.example.miapp.RegistrarObraServlet</servlet-class>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>RegistrarObraServlet</servlet-name>
-        <url-pattern>/registrarObra</url-pattern>
-    </servlet-mapping>
+   <servlet>
+    <servlet-name>RegistrarObraServlet</servlet-name>
+    <servlet-class>com.example.miapp.RegistrarObraServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegistrarObraServlet</servlet-name>
+    <url-pattern>/RegistrarObra</url-pattern>
+</servlet-mapping>
+
 </web-app>
